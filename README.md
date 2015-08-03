@@ -16,6 +16,21 @@
 
 ## 如何使用？
 
+- Gradle配置
+
+```
+dependencies {
+    compile 'com.tt:balloonperformerlibrary:1.0.0'
+}
+```
+
+- 构造一个属性配置
+
+```java
+Config.Builder builder = new Config.Builder(MainActivity.this);
+        Config config = builder.pullSensitivity(2.0f).lineLength(64).isOnlyDestop(false).flyDuration(3000).balloonCount(6).create();
+```
+
 BalloonPerformer可以配置一些属性，如下表
 
 | 属性 |类型|说明|默认值|
@@ -26,14 +41,8 @@ BalloonPerformer可以配置一些属性，如下表
 |PullSensitivity|float|下拉灵敏度|1.8f|
 |isOnlyDestop|boolean|是否仅在桌面显示|false|
 
-### 步骤
-
-- 构造一个属性配置
-```java
-Config.Builder builder = new Config.Builder(MainActivity.this);
-        Config config = builder.pullSensitivity(2.0f).lineLength(64).isOnlyDestop(false).flyDuration(3000).balloonCount(6).create();
-```
 - 初始化（携带该配置）
+
 ```java
 BalloonPerformer.getInstance().init(MainActivity.this, config);
 ```
@@ -41,6 +50,7 @@ BalloonPerformer.getInstance().init(MainActivity.this, config);
 > 如果没有配置Config属性的话会使用默认属性。
 
 - 显示悬浮窗
+
 ```java
 BalloonPerformer.getInstance().show(MainActivity.this, new BalloonGroup.OnBalloonFlyedListener() {
             @Override
@@ -51,6 +61,7 @@ BalloonPerformer.getInstance().show(MainActivity.this, new BalloonGroup.OnBalloo
 ```
 
 - 隐藏悬浮窗
+
 ```java
 BalloonPerformer.getInstance().gone(MainActivity.this);
 ```
