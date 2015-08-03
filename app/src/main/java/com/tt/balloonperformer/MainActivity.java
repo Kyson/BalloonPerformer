@@ -19,7 +19,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Config.Builder builder = new Config.Builder(MainActivity.this);
         Config config = builder.pullSensitivity(2.0f).lineLength(64).isOnlyDestop(false).flyDuration(3000).balloonCount(6).create();
-
         BalloonPerformer.getInstance().init(MainActivity.this, config);
     }
 
