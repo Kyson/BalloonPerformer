@@ -2,7 +2,7 @@
 
 ## 预览
 
-
+![https://raw.githubusercontent.com/Kyson/BalloonPerformer/master/art/bp_showcase.gif](https://raw.githubusercontent.com/Kyson/BalloonPerformer/master/art/bp_showcase.gif)
 
 ## 这个库是什么？
 
@@ -54,3 +54,21 @@ BalloonPerformer.getInstance().show(MainActivity.this, new BalloonGroup.OnBalloo
 ```java
 BalloonPerformer.getInstance().gone(MainActivity.this);
 ```
+
+## 鸣谢
+
+- [nineoldandroids](http://nineoldandroids.com/)
+
+## 更多
+
+- [我的个人博客](http://www.hikyson.cn)
+
+- [我的OSC](http://git.oschina.net/cocobaby)
+
+- [我的新浪微博](http://weibo.com/1980495343/profile?rightmod=1&wvr=6&mod=personinfo)
+
+## License
+
+Copyright (c) 2015 Kyson
+
+Licensed under the [Apache License, Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
