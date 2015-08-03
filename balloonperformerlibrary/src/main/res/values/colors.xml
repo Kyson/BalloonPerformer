@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="translucent">#a0000000</color>
+    <!-- 普通颜色值 -->
+    <color name="common_purple">#d22bd0</color>
+    <color name="common_indigo">#6e37db</color>
+    <color name="common_blue">#4898eb</color>
+    <color name="common_green">#5dc800</color>
+    <color name="common_yellow">#f1e000</color>
+    <color name="common_orange">#f38f00</color>
+    <color name="common_red">#cd0400</color>
+    <color name="common_brown">#8b531b</color>
+    <color name="common_grey">#989898</color>
+    <!-- 普通颜色点击值 -->
+    <color name="common_purple_pressed">#b301b1</color>
+    <color name="common_indigo_pressed">#4b01e2</color>
+    <color name="common_blue_pressed">#0153a8</color>
+    <color name="common_green_pressed">#397901</color>
+    <color name="common_yellow_pressed">#bbad01</color>
+    <color name="common_orange_pressed">#935701</color>
+    <color name="common_red_pressed">#9e0401</color>
+    <color name="common_brown_pressed">#683501</color>
+    <color name="common_grey_pressed">#5c5c5c</color>
+
+    <!-- 文字颜色值 -->
+    <color name="text_grey_dark">#505050</color>
+    <color name="text_grey_light">#777777</color>
+    <color name="text_grey_bight">#c0c0c0</color>
+    <color name="text_grey_bg">#ebebeb</color>
+
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TT内存清理</string>
+    <string name="share">我发现了这款好玩的一键清理内存工具，下载地址：%1$s</string>
+    <string name="share_url">http://www.zhaohuiworkspace.cn/?p=77</string>
+
+</resources>
