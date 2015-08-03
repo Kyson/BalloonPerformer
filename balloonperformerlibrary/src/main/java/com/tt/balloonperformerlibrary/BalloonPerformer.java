@@ -24,6 +24,9 @@ public class BalloonPerformer {
     }
 
     private BalloonPerformer() {
+        if (mConfig == null) {
+            mConfig = new Config();
+        }
     }
 
     private Config mConfig;
@@ -40,7 +43,8 @@ public class BalloonPerformer {
     }
 
     public BalloonPerformer init(Context context) {
-        return init(context, new Config());
+        PackageInfoStorage.updateHomeList(context);
+        return this;
     }
 
     public void show(Context context, BalloonGroup.OnBalloonFlyedListener onFinishListener) {
