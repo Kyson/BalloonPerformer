@@ -20,7 +20,7 @@
 
 ```
 dependencies {
-    compile 'com.tt:balloonperformerlibrary:1.0.0'
+    compile 'com.tt:balloonperformerlibrary:1.0.1'
 }
 ```
 
