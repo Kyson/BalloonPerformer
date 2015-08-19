@@ -14,7 +14,7 @@ import android.content.Intent;
 import com.tt.balloonperformerlibrary.storage.PackageInfoStorage;
 
 /**
- * 应用安装卸载的广播<功能简述> </Br> <功能详细描述> </Br>
+ * 应用安装卸载的广播
  * 
  * @author Kyson
  */

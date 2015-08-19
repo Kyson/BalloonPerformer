@@ -21,15 +21,13 @@ import com.tt.balloonperformerlibrary.R;
 import com.tt.balloonperformerlibrary.utils.ViewUtil;
 
 /**
- * 拉手的视图 <功能简述> <Br>
- * <功能详细描述> <Br>
+ * 拉手的视图
  *
  * @author Kyson
  */
 public class HandView extends View {
     /**
-     * loose hand,when true,ballon can fly now <功能简述> <Br>
-     * <功能详细描述> <Br>
+     * loose hand,when true,ballon can fly now  <Br>
      *
      * @author kysonX
      */
@@ -38,8 +36,7 @@ public class HandView extends View {
     }
 
     /**
-     * {@link HandView} moved ,and {@link LineView} move <功能简述> </Br> <功能详细描述>
-     * </Br>
+     * {@link HandView} moved ,and {@link LineView} move
      *
      * @author kysonX
      */
@@ -92,7 +89,7 @@ public class HandView extends View {
     }
 
     /**
-     * attach handview to {@link WindowManager} <功能简述>
+     * attach handview to {@link WindowManager}
      *
      * @param y
      */
@@ -129,8 +126,8 @@ public class HandView extends View {
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         setMeasuredDimension(
-                ViewUtil.measureWidth(widthMeasureSpec, mHandGrasp.getWidth()),
-                ViewUtil.measureHeight(heightMeasureSpec,
+                ViewUtil.measureSize(widthMeasureSpec, mHandGrasp.getWidth()),
+                ViewUtil.measureSize(heightMeasureSpec,
                         mHandGrasp.getHeight()));
     }
 
@@ -170,7 +167,7 @@ public class HandView extends View {
     }
 
     /**
-     * on hand loose<功能简述>
+     * on hand loose
      */
     private void onActionLoose() {
         if (mOnLooseListener != null) {
@@ -183,7 +180,7 @@ public class HandView extends View {
     }
 
     /**
-     * put the hand to top <功能简述>
+     * put the hand to top
      */
     public void backToTop() {
         invalidateByStatus(true);
@@ -200,7 +197,7 @@ public class HandView extends View {
     }
 
     /**
-     * 释放资源 <功能简述>
+     * 释放资源
      */
     public void release() {
         if (this.getParent() != null) {
@@ -221,7 +218,7 @@ public class HandView extends View {
     }
 
     /**
-     * when moved by touch,notify {@link HandView} moved event <功能简述>
+     * when moved by touch,notify {@link HandView} moved event
      *
      * @param x
      * @param y
@@ -267,7 +264,7 @@ public class HandView extends View {
     }
 
     /**
-     * get content width,actually the bitmap width <功能简述>
+     * get content width,actually the bitmap width
      *
      * @return
      */
@@ -276,7 +273,7 @@ public class HandView extends View {
     }
 
     /**
-     * get {@link HandView} position <功能简述>
+     * get {@link HandView} position
      *
      * @return
      */

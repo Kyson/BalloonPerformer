@@ -4,11 +4,11 @@ apply plugin: 'com.android.library'
 apply plugin: 'com.github.dcendents.android-maven'
 apply plugin: 'com.jfrog.bintray'
 // 这个version是区分library版本的，因此当我们需要更新library时记得修改这个version
-version = "1.0.1"
+version = "1.0.2"
 android {
     compileSdkVersion 22
-    buildToolsVersion "23.0.0 rc2"
-    resourcePrefix "BalloonPerformer_"
+    buildToolsVersion "23.0.0"
+    resourcePrefix "balloonperformer_"
     defaultConfig {
         minSdkVersion 9
         targetSdkVersion 21
@@ -83,7 +83,7 @@ javadoc {
         charSet 'UTF-8'
         author true
         version true
-        links "http://docs.oracle.com/javase/7/docs/api"
+        links "http://docs.oracle.com/javase/8/docs/api"
         title PROJ_ARTIFACTID
     }
 }

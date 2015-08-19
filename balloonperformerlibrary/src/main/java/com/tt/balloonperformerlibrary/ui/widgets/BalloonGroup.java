@@ -25,8 +25,7 @@ import java.util.List;
 
 
 /**
- * 气球视图管理<功能简述> <Br>
- * <功能详细描述> <Br>
+ * 气球视图管理
  *
  * @author kysonX
  */
@@ -54,7 +53,7 @@ public class BalloonGroup {
     }
 
     /**
-     * 释放气球 <功能简述>
+     * 释放气球
      */
     public void startFly() {
         // 设置容器
@@ -66,7 +65,7 @@ public class BalloonGroup {
     }
 
     /**
-     * 设置容器 <功能简述>
+     * 设置容器
      */
     private void setContainer() {
         WindowManager.LayoutParams wmParams = new WindowManager.LayoutParams();
@@ -91,7 +90,7 @@ public class BalloonGroup {
     }
 
     /**
-     * 添加气球 <功能简述>
+     * 添加气球
      */
     private void addContent() {
         for (int i = 0; i < BalloonPerformer.getInstance().getConfig().getBalloonCount(mContext); i++) {
@@ -103,7 +102,7 @@ public class BalloonGroup {
     }
 
     /**
-     * 添加一个气球 <功能简述>
+     * 添加一个气球
      *
      * @param x
      * @param y
@@ -166,7 +165,7 @@ public class BalloonGroup {
     }
 
     /**
-     * 动画结束释放资源 <功能简述>
+     * 动画结束释放资源
      *
      * @param balloon
      */
@@ -184,7 +183,7 @@ public class BalloonGroup {
     }
 
     /**
-     * 释放全部资源 <功能简述>
+     * 释放全部资源
      */
     public void release() {
         for (Balloon balloon : mBalloons) {

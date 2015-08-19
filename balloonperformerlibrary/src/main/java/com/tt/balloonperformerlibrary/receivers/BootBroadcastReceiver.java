@@ -17,8 +17,7 @@ import com.tt.balloonperformerlibrary.utils.ServiceUtil;
 
 
 /**
- * 开机启动接收器<功能简述> <Br>
- * <功能详细描述> <Br>
+ * 开机启动接收器
  *
  * @author kysonX
  */

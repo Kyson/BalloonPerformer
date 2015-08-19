@@ -18,7 +18,7 @@ import com.tt.balloonperformerlibrary.R;
 
 
 /**
- * 拖动到此view隐藏<功能简述> </Br> <功能详细描述> </Br>
+ * 拖动到此view隐藏
  * 
  * @author kysonX
  */

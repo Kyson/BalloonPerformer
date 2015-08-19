@@ -14,13 +14,13 @@ import android.app.ActivityManager.RunningServiceInfo;
 import android.content.Context;
 
 /**
- * <功能简述> </Br> <功能详细描述> </Br>
+ * service相关的工具类
  * 
  * @author kysonX
  */
 public class ServiceUtil {
     /**
-     * 服务是否运行中 <功能简述>
+     * 服务是否运行中
      * 
      * @param context
      * @param serviceName

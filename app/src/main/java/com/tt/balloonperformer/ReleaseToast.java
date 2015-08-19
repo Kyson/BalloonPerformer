@@ -17,7 +17,7 @@ import com.tt.balloonperformerlibrary.R;
 
 /**
  * <功能简述> </Br> <功能详细描述> </Br>
- * 
+ *
  * @author kysonX
  */
 public class ReleaseToast extends Toast {
@@ -43,7 +43,7 @@ public class ReleaseToast extends Toast {
         mTextView.setTextSize(14);
         mTextView.setPadding(24, 12, 24, 12);
         mTextView.setGravity(Gravity.CENTER);
-        mTextView.setTextColor(mContext.getResources().getColor(R.color.white));
+        mTextView.setTextColor(mContext.getResources().getColor(R.color.balloonperformer_white));
         mTextView.setBackgroundResource(R.drawable.toast_bg);
         setView(mTextView);
         setDuration(Toast.LENGTH_SHORT);

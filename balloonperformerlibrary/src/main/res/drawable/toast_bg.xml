@@ -4,7 +4,7 @@
     <!-- 圆角 -->
     <corners android:radius="8dp" />
     <!-- 填充 -->
-    <solid android:color="@color/text_grey_dark" />
+    <solid android:color="@color/balloonperformer_text_grey_dark" />
 
 </shape>
 

@@ -9,13 +9,13 @@ import android.content.pm.ResolveInfo;
 import android.net.Uri;
 
 /**
- * intent相关工具类 <功能简述> </Br> <功能详细描述> </Br>
+ * intent相关工具类
  * 
  * @author Kyson
  */
 public class IntentUtil {
     /**
-     * 获取intent启动（没有满足intent条件就不启动） <功能简述>
+     * 获取intent启动,没有满足intent条件就不启动
      * 
      * @param context
      * @param intent
@@ -28,7 +28,7 @@ public class IntentUtil {
     }
 
     /**
-     * 满足intent的应用是否存在 <功能简述>
+     * 满足intent的应用是否存在
      * 
      * @param context
      * @param intent
@@ -46,7 +46,7 @@ public class IntentUtil {
     }
 
     /**
-     * 获取应用市场应用详情的intent <功能简述>
+     * 获取应用市场应用详情的intent
      * 
      * @param context
      * @return
@@ -61,7 +61,7 @@ public class IntentUtil {
     }
 
     /**
-     * 获取文本分享的itent <功能简述>
+     * 获取文本分享的itent
      * 
      * @param context
      * @return

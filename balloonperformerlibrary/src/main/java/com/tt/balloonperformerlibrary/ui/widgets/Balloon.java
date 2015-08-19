@@ -14,7 +14,7 @@ import com.tt.balloonperformerlibrary.utils.ViewUtil;
 
 
 /**
- * 气球view <功能简述> </Br> <功能详细描述> </Br>
+ * 气球view
  *
  * @author Kyson
  */
@@ -113,14 +113,14 @@ public class Balloon extends View {
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         setMeasuredDimension(
-                ViewUtil.measureWidth(widthMeasureSpec, AMPLITUDE * 2),
-                ViewUtil.measureHeight(heightMeasureSpec, AMPLITUDE * 8));
+                ViewUtil.measureSize(widthMeasureSpec, AMPLITUDE * 2),
+                ViewUtil.measureSize(heightMeasureSpec, AMPLITUDE * 8));
     }
 
     private boolean mIsFlying = false;
 
     /**
-     * 气球线摆动 <功能简述>
+     * 气球线摆动
      */
     public void startFly() {
         mIsFlying = true;

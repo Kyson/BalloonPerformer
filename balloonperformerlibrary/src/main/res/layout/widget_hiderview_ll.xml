@@ -2,7 +2,7 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:background="@color/translucent"
+    android:background="@color/balloonperformer_translucent"
     android:gravity="center"
     android:orientation="horizontal"
     android:paddingBottom="6dp"
@@ -20,6 +20,6 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="12dp"
         android:text="拖动到此处隐藏悬浮窗"
-        android:textColor="@color/common_blue" />
+        android:textColor="@color/balloonperformer_common_blue" />
 
 </LinearLayout>

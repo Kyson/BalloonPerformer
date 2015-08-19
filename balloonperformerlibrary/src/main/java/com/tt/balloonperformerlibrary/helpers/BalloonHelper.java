@@ -15,26 +15,26 @@ public class BalloonHelper {
 
     static {
         sColorArray = new SparseIntArray();
-        sColorArray.put(0, R.color.common_purple);
-        sColorArray.put(1, R.color.common_indigo);
-        sColorArray.put(2, R.color.common_blue);
-        sColorArray.put(3, R.color.common_green);
-        sColorArray.put(4, R.color.common_yellow);
-        sColorArray.put(5, R.color.common_orange);
-        sColorArray.put(6, R.color.common_red);
-        sColorArray.put(7, R.color.common_brown);
-        sColorArray.put(8, R.color.common_brown_pressed);
-        sColorArray.put(9, R.color.common_purple_pressed);
-        sColorArray.put(10, R.color.common_indigo_pressed);
-        sColorArray.put(11, R.color.common_blue_pressed);
-        sColorArray.put(12, R.color.common_green_pressed);
-        sColorArray.put(13, R.color.common_yellow_pressed);
-        sColorArray.put(14, R.color.common_orange_pressed);
-        sColorArray.put(15, R.color.common_red_pressed);
+        sColorArray.put(0, R.color.balloonperformer_common_purple);
+        sColorArray.put(1, R.color.balloonperformer_common_indigo);
+        sColorArray.put(2, R.color.balloonperformer_common_blue);
+        sColorArray.put(3, R.color.balloonperformer_common_green);
+        sColorArray.put(4, R.color.balloonperformer_common_yellow);
+        sColorArray.put(5, R.color.balloonperformer_common_orange);
+        sColorArray.put(6, R.color.balloonperformer_common_red);
+        sColorArray.put(7, R.color.balloonperformer_common_brown);
+        sColorArray.put(8, R.color.balloonperformer_common_brown_pressed);
+        sColorArray.put(9, R.color.balloonperformer_common_purple_pressed);
+        sColorArray.put(10, R.color.balloonperformer_common_indigo_pressed);
+        sColorArray.put(11, R.color.balloonperformer_common_blue_pressed);
+        sColorArray.put(12, R.color.balloonperformer_common_green_pressed);
+        sColorArray.put(13, R.color.balloonperformer_common_yellow_pressed);
+        sColorArray.put(14, R.color.balloonperformer_common_orange_pressed);
+        sColorArray.put(15, R.color.balloonperformer_common_red_pressed);
     }
 
     /**
-     * 获取颜色值 <功能简述>
+     * 获取颜色值
      *
      * @param context
      * @return
@@ -50,7 +50,7 @@ public class BalloonHelper {
     }
 
     /**
-     * 从一个列表中取出一个颜色<功能简述>
+     * 从一个列表中取出一个颜色
      *
      * @return
      */
@@ -61,7 +61,7 @@ public class BalloonHelper {
     }
 
     /**
-     * 获取随机的初始位置 <功能简述>
+     * 获取随机的初始位置
      *
      * @param manager
      * @return
@@ -77,7 +77,7 @@ public class BalloonHelper {
     }
 
     /**
-     * 随机获取气球大小 <功能简述>
+     * 随机获取气球大小
      *
      * @param manager
      * @return
@@ -92,7 +92,7 @@ public class BalloonHelper {
     }
 
     /**
-     * 获取气球随机可能的最大高度 <功能简述>
+     * 获取气球随机可能的最大高度
      *
      * @return
      */

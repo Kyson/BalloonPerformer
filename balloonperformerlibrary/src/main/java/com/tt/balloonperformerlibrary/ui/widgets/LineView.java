@@ -21,14 +21,13 @@ import com.tt.balloonperformerlibrary.utils.ViewUtil;
 
 
 /**
- * 线的view <功能简述> <Br>
- * <功能详细描述> <Br>
- * 
+ * 线的view<Br>
+ *
  * @author Kyson
  */
 public class LineView extends View {
     /**
-     * 绳子收起的监听器 <功能简述> </Br> <功能详细描述> </Br>
+     * 绳子收起的监听器
      * 
      * @author kysonX
      */
@@ -75,7 +74,7 @@ public class LineView extends View {
     }
 
     /**
-     * attach {@link LineView} to {@link WindowManager} <功能简述>
+     * attach {@link LineView} to {@link WindowManager}
      * 
      * @param offsetX
      */
@@ -85,7 +84,7 @@ public class LineView extends View {
     }
 
     /**
-     * {@link Set} container <功能简述>
+     * {@link Set} container
      */
     private void setContainer() {
         WindowManager.LayoutParams wmParams = new WindowManager.LayoutParams();
@@ -137,13 +136,13 @@ public class LineView extends View {
     @Override
     protected void onMeasure(int widthMeasureSpec, int heightMeasureSpec) {
         setMeasuredDimension(
-                ViewUtil.measureWidth(widthMeasureSpec,
+                ViewUtil.measureSize(widthMeasureSpec,
                         (int) mPaint.getStrokeWidth()),
-                ViewUtil.measureHeight(heightMeasureSpec, (int) mLineLength));
+                ViewUtil.measureSize(heightMeasureSpec, (int) mLineLength));
     }
 
     /**
-     * 绳子收起 <功能简述>
+     * 绳子收起
      */
     public void pack(final boolean isNotify) {
         ObjectAnimator animator = ObjectAnimator.ofFloat(this, "translationY",
@@ -177,7 +176,7 @@ public class LineView extends View {
     }
 
     /**
-     * 根据横向位置和纵向高度更新视图 <功能简述>
+     * 根据横向位置和纵向高度更新视图
      * 
      * @param x
      * @param offsetX
@@ -192,7 +191,7 @@ public class LineView extends View {
     }
 
     /**
-     * 释放资源 <功能简述>
+     * 释放资源
      */
     public void release() {
         if (mContainer != null && mContainer.getParent() != null) {

@@ -8,8 +8,6 @@
 package com.tt.balloonperformerlibrary.ui.widgets;
 
 import android.content.Context;
-import android.text.Html;
-import android.text.format.Formatter;
 import android.util.Log;
 import android.view.WindowManager;
 
@@ -23,8 +21,8 @@ import com.tt.balloonperformerlibrary.utils.ViewUtil;
 
 
 /**
- * 视图总体的管理<功能简述> <Br>
- * API start and end control the {@link WindowManager} <功能详细描述> <Br>
+ * 视图总体的管理<Br>
+ * API start and end control the {@link WindowManager}<Br>
  *
  * @author kysonX
  */
@@ -59,7 +57,7 @@ public class ReleaseViewManager {
     }
 
     /**
-     * start show views ,actually only handview<功能简述>
+     * start show views ,actually only handview
      */
     public void start() {
         Log.i("kyson", "Start ReleaseViewManager");
@@ -80,7 +78,7 @@ public class ReleaseViewManager {
     }
 
     /**
-     * release view from {@link WindowManager} <功能简述>
+     * release view from {@link WindowManager}
      */
     public void end() {
         if (mHandView != null) {
@@ -168,7 +166,7 @@ public class ReleaseViewManager {
             @Override
             public void onBalloonFlyed() {
                 // 释放内存
-//                releaseMemory();
+                // releaseMemory();
                 if (BalloonPerformer.getInstance().getOnBalloonFlyedListener() != null) {
                     BalloonPerformer.getInstance().getOnBalloonFlyedListener().onBalloonFlyed();
                 }

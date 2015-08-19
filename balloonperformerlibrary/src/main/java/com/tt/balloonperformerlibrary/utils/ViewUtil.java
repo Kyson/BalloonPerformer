@@ -7,14 +7,14 @@
  */
 package com.tt.balloonperformerlibrary.utils;
 
-import java.lang.reflect.Field;
-
 import android.content.Context;
 import android.view.View.MeasureSpec;
 
+import java.lang.reflect.Field;
+
 /**
- * <功能简述> </Br> <功能详细描述> </Br>
- * 
+ * View相关的工具类
+ *
  * @author kysonX
  */
 public class ViewUtil {
@@ -37,7 +37,7 @@ public class ViewUtil {
         return sStatusBarHeight;
     }
 
-    public static int measureWidth(int measureSpec, int wantW) {
+    public static int measureSize(int measureSpec, int wantSize) {
         int result = 0;
         int specMode = MeasureSpec.getMode(measureSpec);
         int specSize = MeasureSpec.getSize(measureSpec);
@@ -47,34 +47,7 @@ public class ViewUtil {
             result = specSize;
         } else {
             // wrap_content的时候宽度最小
-            result = wantW;
-            if (specMode == MeasureSpec.AT_MOST) {
-                // Respect AT_MOST value if that was what is called for by
-                // measureSpec
-                result = Math.min(result, specSize);
-            }
-        }
-        return result;
-    }
-
-    /**
-     * Determines the height of this view
-     * 
-     * @param measureSpec
-     *            A measureSpec packed into an int
-     * @return The height of the view, honoring constraints from measureSpec
-     */
-    public static int measureHeight(int measureSpec, int wantH) {
-        int result = 0;
-        int specMode = MeasureSpec.getMode(measureSpec);
-        int specSize = MeasureSpec.getSize(measureSpec);
-
-        if (specMode == MeasureSpec.EXACTLY) {
-            // We were told how big to be
-            result = specSize;
-        } else {
-            // wrap_content的时候高度最小
-            result = wantH;
+            result = wantSize;
             if (specMode == MeasureSpec.AT_MOST) {
                 // Respect AT_MOST value if that was what is called for by
                 // measureSpec

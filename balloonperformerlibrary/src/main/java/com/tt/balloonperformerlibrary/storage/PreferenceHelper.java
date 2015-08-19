@@ -12,8 +12,7 @@ import android.content.SharedPreferences;
 
 
 /**
- * 存储变量 <功能简述> <Br>
- * <功能详细描述> <Br>
+ * 存储变量
  *
  * @author kysonX
  */
@@ -77,7 +76,7 @@ public class PreferenceHelper {
     }
 
     /**
-     * 设置是否仅在桌面显示 <功能简述>
+     * 设置是否仅在桌面显示
      *
      * @param context
      * @param onlyDestop
@@ -147,7 +146,7 @@ public class PreferenceHelper {
 
 
     /**
-     * 获取是否在桌面显示 <功能简述>
+     * 获取是否在桌面显示
      *
      * @param context
      * @return
@@ -160,7 +159,7 @@ public class PreferenceHelper {
 
 
     /**
-     * 服务是否需要运行 <功能简述>
+     * 服务是否需要运行
      *
      * @param context
      * @param isRunning
@@ -172,7 +171,7 @@ public class PreferenceHelper {
     }
 
     /**
-     * 服务是否需要运行 <功能简述>
+     * 服务是否需要运行
      *
      * @param context
      */

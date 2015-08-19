@@ -20,7 +20,7 @@ import java.util.TimerTask;
 
 
 /**
- * 启动桌面悬浮窗service <功能简述> <Br> <功能详细描述> <Br>
+ * 启动桌面悬浮窗service
  *
  * @author kysonX
  */
@@ -77,7 +77,7 @@ public class ReleaseService extends Service {
         notification.flags |= Notification.FLAG_NO_CLEAR;
         notification.flags |= Notification.FLAG_FOREGROUND_SERVICE;
         startForeground(1, notification);
-        Log.i("kyson","ReleaseService onStartCommand");
+        Log.i("kyson", "ReleaseService onStartCommand");
         if (mTimer == null) {
             mReleaseViewManager = ReleaseViewManager.getInstance(this);
             mTimer = new Timer();
@@ -100,7 +100,7 @@ public class ReleaseService extends Service {
 
         @Override
         public void run() {
-            Log.i("kyson","ReleaseService RefreshTask run");
+            Log.i("kyson", "ReleaseService RefreshTask run");
             if (!BalloonPerformer.getInstance().getConfig().isOnlyDestop(ReleaseService.this)) {
                 // 所有情况都显示的话
                 startWithCheck();
@@ -122,7 +122,7 @@ public class ReleaseService extends Service {
 
             @Override
             public void run() {
-                Log.i("kyson","ReleaseService startWithCheck");
+                Log.i("kyson", "ReleaseService startWithCheck");
                 if (mReleaseViewManager != null
                         && !mReleaseViewManager.isRunning()) {
                     mReleaseViewManager.start();

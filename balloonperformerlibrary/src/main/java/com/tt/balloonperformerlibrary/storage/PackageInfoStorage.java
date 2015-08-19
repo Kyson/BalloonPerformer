@@ -20,8 +20,7 @@ public class PackageInfoStorage {
 
     /**
      * 更新属于桌面的应用的应用包名称
-     * 
-     * @return 返回包含所有包名的字符串列表
+     *
      */
     public static void updateHomeList(Context context) {
         List<String> names = new ArrayList<String>();
