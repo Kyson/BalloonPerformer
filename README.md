@@ -4,6 +4,9 @@
 
 ![https://raw.githubusercontent.com/Kyson/BalloonPerformer/master/art/bp_showcase.gif](https://raw.githubusercontent.com/Kyson/BalloonPerformer/master/art/bp_showcase.gif)
 
+
+> 这个开源项目是从之前做的一个内存清理应用抽取出来的，下载地址：[点我下载TT内存清理](http://openbox.mobilem.360.cn/index/d/sid/2366842)
+
 ## 这个库是什么？
 
 这是一个桌面悬浮窗工具，拉手下拉会出现气球动画。
@@ -20,7 +23,7 @@
 
 ```
 dependencies {
-    compile 'com.tt:balloonperformerlibrary:1.0.1'
+    compile 'com.tt:balloonperformerlibrary:1.0.2'
 }
 ```
 
@@ -73,6 +76,8 @@ BalloonPerformer.getInstance().gone(MainActivity.this);
 ## 更多
 
 - [我的个人博客](http://www.hikyson.cn)
+
+- [Github](https://github.com/Kyson)
 
 - [我的OSC](http://git.oschina.net/cocobaby)
 
