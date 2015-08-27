@@ -31,7 +31,7 @@ dependencies {
 
 ```java
 Config.Builder builder = new Config.Builder(MainActivity.this);
-        Config config = builder.pullSensitivity(2.0f).lineLength(64).isOnlyDestop(false).flyDuration(3000).balloonCount(6).create();
+Config config = builder.pullSensitivity(2.0f).lineLength(64).isOnlyDestop(false).flyDuration(3000).balloonCount(6).create();
 ```
 
 BalloonPerformer可以配置一些属性，如下表
@@ -75,13 +75,17 @@ BalloonPerformer.getInstance().gone(MainActivity.this);
 
 ## 更多
 
-- [我的个人博客](http://www.hikyson.cn)
+- [主页](http://www.hikyson.cn)
+
+- [博客](http://blog.hikyson.cn/)
 
 - [Github](https://github.com/Kyson)
 
-- [我的OSC](http://git.oschina.net/cocobaby)
+- 邮箱:kysonchao@gmail.com
 
-- [我的新浪微博](http://weibo.com/1980495343/profile?rightmod=1&wvr=6&mod=personinfo)
+- [开源中国](http://git.oschina.net/cocobaby)
+
+- [新浪微博](http://weibo.com/1980495343/profile?rightmod=1&wvr=6&mod=personinfo)
 
 ## License
 
